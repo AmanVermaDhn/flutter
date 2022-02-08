@@ -6,7 +6,7 @@ class LoginPage extends StatelessWidget {
     return const Material(
       child: Center(
         child: Text(
-          "Login Page"
+          "Login Page",
           style: TextStyle(
             fontSize: 40,
             color: Colors.blue,
