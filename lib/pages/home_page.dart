@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
-  int serial = 2;
-  String subject = "Flutter and Dart";
+  final int serial = 2;
+  final String subject = "Flutter and Dart";
+
+  const HomePage({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
